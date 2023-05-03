@@ -1,3 +1,13 @@
+-- Data Source : https://archive.ics.uci.edu/ml/datasets/Online+Retail
+/* Main point: 
+ • Handling missing values
+ • Month extraction from date
+ • Assign cohort to each transaction
+ • Assigning cohort Index to each transaction
+ • Create cohort table for retention rate
+ • Visualize the cohort table using Power BI
+ • Interpret the retention rate
+*/
 -- Raw data has 541.909 rows
 -- 406.829 rows with CustomerID != 0
 -- 397.884 
